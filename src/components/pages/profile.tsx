@@ -60,8 +60,7 @@ export const Profile = ({ className, user }: ContentProps) => {
                         },
                     ]}
                 />
-                <Overview />
-            </main>
+                <Overview /></main>
         </div>
     );
 };
