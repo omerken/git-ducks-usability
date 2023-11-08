@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+    background-color: var(--color-border-muted);
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.input {
+    width: 150px;
+}

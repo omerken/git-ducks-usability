@@ -14,6 +14,7 @@ export interface ContentProps {
     user: ApiUser;
 }
 
+
 export const Profile = ({ className, user }: ContentProps) => {
     return (
         <div className={classNames(styles.root, className)}>
@@ -60,7 +61,6 @@ export const Profile = ({ className, user }: ContentProps) => {
                         },
                     ]}
                 />
-                <Overview /></main>
-        </div>
+                <Overview /></main></div>
     );
 };

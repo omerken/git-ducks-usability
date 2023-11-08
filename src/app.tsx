@@ -10,6 +10,7 @@ import { parseContributionsResponse } from './model/api-contributions';
 import { response_user } from './mocks/mock-user';
 import { response_projects } from './mocks/mock-projects';
 import { response_contributions } from './mocks/mock-contributions';
+import { Footer } from './components/new-component/footer';
 
 export interface AppProps {
     /**
@@ -57,6 +58,7 @@ export const App = ({ username }: AppProps) => {
                 <Header />
 
                 <ProfilePage className={styles.page} userInfo={userInfo} />
+                <Footer />
             </div>
         </AppContext.Provider>
     );
