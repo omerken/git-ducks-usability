@@ -14,9 +14,12 @@
     "promise-assist": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
     "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
+    "@codux-boards/react-semantic": "^1.0.2",
     "@types/dateformat": "^5.0.1",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
