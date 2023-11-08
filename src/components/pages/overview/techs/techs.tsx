@@ -22,7 +22,6 @@ const TechStacks = ({ technologies }: TechsProps): JSX.Element => {
 export const Techs = ({ technologies }: TechsProps) => {
     return (
         <div>
-            <h1>Tech Stack</h1>
             {technologies ? <TechStacks technologies={technologies} /> : null}
         </div>
     );

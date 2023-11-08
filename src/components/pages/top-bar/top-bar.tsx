@@ -20,17 +20,18 @@ export const TopBar: React.FC<TopBarProps> = ({ className, user }) => {
     return (
         <aside className={classNames(styles.root, className)}>
             <div>
-                <Avatar url={avatar} username={user?.username} /></div>
+                <Avatar url={avatar} username={user?.username} />
+                <ConnectButton />
+                <Techs technologies={user?.techs?.technologies} />
+            </div>
 
             <div className={styles.userinfo}>
                 <div className={styles.names}>
-                    <ConnectButton />
                     <span className={styles.name}>{user?.name}</span>
                     <span className={styles.username}>{user?.username}</span>
                     <span className={styles.members}>Member since 1984</span>
                     <Connections count={user?.followers} />
                 </div>
-                <Techs technologies={user?.techs?.technologies} />
                 <UserInfo
                     organization={user?.organization}
                     location={user?.location}
