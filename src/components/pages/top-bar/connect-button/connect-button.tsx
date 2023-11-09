@@ -19,14 +19,12 @@ export const ConnectButton = memo<ConnectButtonProps>(
         );
 
         return (
-            <div className={classNames(styles.root, className)}>
-                <button
+            <button
                     className={styles.button}
                     onClick={toggleConnectionStatus}
                 >
                     {buttonText}
                 </button>
-            </div>
         );
     }
 );

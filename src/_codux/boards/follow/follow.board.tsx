@@ -5,7 +5,6 @@ export default createBoard({
     name: 'Follow',
     Board: () => <ConnectButton />,
     environmentProps: {
-        canvasWidth: 240,
         windowWidth: 300,
         windowHeight: 300,
     },

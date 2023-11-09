@@ -5,7 +5,6 @@ export default createBoard({
     name: 'Unfollow',
     Board: () => <ConnectButton defaultIsConnected />,
     environmentProps: {
-        canvasWidth: 240,
         windowWidth: 300,
         windowHeight: 300,
     },
